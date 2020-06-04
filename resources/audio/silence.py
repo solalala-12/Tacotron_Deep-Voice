@@ -60,11 +60,17 @@ def split_on_silence_with_pydub(
         for idx, (start_idx, end_idx) in enumerate(edges[skip_idx:]):
             start_idx = max(0, start_idx - keep_silence)
             end_idx += keep_silence
+            '''
+            target_audio_path = "{}/{}.{:04d}.{}".format(
+                os.path.dirname(audio_path), filename, idx, out_ext)
 
+            segment=audio[start_idx:end_idx]
         
+            segment.export(target_audio_path, out_ext)  # for soundsegment
 
-            # segment+=audio[start_idx:end_idx]
-
+            audio_paths.append(target_audio_path)
+            '''
+            # 무음이 아닌 구간 한파일로 합칠 때 -sora
             segment+=audio[start_idx:end_idx]
             
 
