@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+  voice:
+    build:
+      context: .  # dockerfile 위치
+    volumes:
+      - .:/home/multi-speaker-tacotron
+
+    command: tail -f /dev/null
+    environment:
+      TZ: "Asia/Seoul"
+      PYTHONPATH: "/home/multi-speaker-tacotron"
