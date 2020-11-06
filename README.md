@@ -119,3 +119,12 @@ python3 synthesizer.py --load_path logs/son+moon+park_2020-03-04_17-35-03 --text
 ```
 python3 upload.py --folder_name=logs/son_jin --rm_log==True (default)
 ```
+
+
+
+
+# code with
+- [Sora](https://github.com/solalala-12)
+- [hizzang](https://github.com/hizzang920)
+- [YooSungHyun](https://github.com/YooSungHyun)
+- [jimjimi](https://github.com/jimjimi)
