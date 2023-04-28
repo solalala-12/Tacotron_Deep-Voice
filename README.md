@@ -29,7 +29,7 @@ sudo apt-get install python3-tk
 - shell 에서 다음 명령어 실행 / Azure key
 
 ```
-export AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=adlskyowon;AccountKey=pXaPQKkHngsedsHPyoP9o47j61y3yMS0AVzieNNq05DnyIA/J7QPhnv5cF8XXnXyU2ZPH+8rscJRbyy4kAOwEA==;EndpointSuffix=core.windows.net"
+export AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName={AccountName};AccountKey={AccountKey}==;EndpointSuffix=core.windows.net"
 
 ```
 
